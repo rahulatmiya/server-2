@@ -6,12 +6,9 @@ var Islogged=false;
 function App() {
   return (
     <div className="container">
-    {  Islogged==true?<h1>Hello</h1> : <Login />}
-
-
-{/* 
-      <h1>Hello</h1> */}
-     
+    { 
+     Islogged==true?<h1>Hello</h1>:<Login />
+    }
       </div>
   );
 }
